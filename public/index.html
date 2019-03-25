@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Scrape News</title>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='./css/style.css'>
+</head>
+
+<body>
+
+    <!-- Main -->
+    <div class="main">
+        <h1>Scrape News</h1>
+        <div id="btndiv">
+            <button class="btn btn-success" id="scrapebtn">Scrape!</button>
+            <button class="btn btn-danger" id="deletebtn">Delete All!</button>
+        </div>
+
+        <!-- modal -->
+        <div class="modal fade" id="noteModal" tabindex="-1" role="dialog" aria-labelledby="noteModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="noteModalLabel"></h5>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Add a Note</h6>
+                        <textarea id='bodyinput' name='body'></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" id="savebtn">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Article Container -->
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-12' id="articles"><h3>Click Scrape Button to See the Articles!</h3></div>
+            </div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
