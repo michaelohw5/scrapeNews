@@ -8,7 +8,7 @@
 1. Visit the url (https://tranquil-island-90281.herokuapp.com/)
 
 2. Click Scrape! button
-<img src='./public/img/scrape.png>
+<img src="./public/img/scrape.png">
 3. Watch the articles populate the screen
      Click on Link to visit the article!
 <img src="./public/img/populate.png" width="800px" height="600px">
